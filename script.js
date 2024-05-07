@@ -4,6 +4,8 @@ let top_coins_container = document.querySelector("#top-coins");
 // Fetch data from an API
 fetchApi();
 
+
+
 // Call the function to display top coins
 top_coins();
 

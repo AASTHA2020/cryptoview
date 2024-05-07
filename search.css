@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header nav{
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 2px 2px 8px grey;
+ }
+ #search-btn{
+     background-color: rgb(233, 233, 192);
+     padding:10px 20px;
+    text-decoration: none;
+    color:black;
+    border-radius: 50px;
+    border:2px solid rgb(221, 213, 182);
+    font-size: 18px;
+ }
+ #search-btn:hover{
+    background-color: rgb(29, 28, 24);
+    color:white;
+    
+ }
+input{
+    padding:5px;
+    border-radius: 8px;
+    width: 600px;
+    
+    
+}
+button{
+    padding:10px 20px;
+    border-radius: 8px;
+    background-color: rgb(235, 157, 12);
+    color:white;
+    border:none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+body{
+    background-color: rgb(227, 226, 226);
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.searchBox-container{
+    display: flex;
+    justify-content: center;
+    /* gap:20px; */
+    padding:20px;
+    margin:20px;
+}
+.coin_list{
+    height:100vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    padding:30px;
+   
+}
+#crypto-img{
+    height:50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.list-item{
+    padding:10px;
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item:hover{
+    box-shadow: 4px 4px 4px grey;
+}
+.name_container{
+    display: flex;
+    gap:6px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer{
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+#more_info{
+    padding:30px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    display: none;
+    text-align: center;
+    gap:30px;
+}
+#more_info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#more_info h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    color:rgb(255, 174, 0);
+}
+#more_info .prices{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+h1 ,h2 ,h3{
+    color:rgb(255, 174, 0)
+}

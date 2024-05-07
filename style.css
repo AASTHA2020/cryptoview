@@ -14,7 +14,7 @@ body {
 }
 
 header nav {
-    padding: 20px;
+    padding: 12px;
     display: flex;
     justify-content: space-between;
     background-color: transparent;
@@ -22,12 +22,13 @@ header nav {
 }
 
 #search-btn {
-    background-color: rgba(29, 29, 27, 0.267);
+    background-color: rgb(31, 30, 30);
     padding: 10px 20px;
+    font-weight: bold;
     text-decoration: none;
     color: white;
-    border-radius: 5px;
-    border: 2px solid rgb(15, 12, 0);
+    border-radius: 50px;
+   
 }
 
 .hero-section {
@@ -56,15 +57,16 @@ header nav {
     position: absolute;
     left: 50px;
     width: 50%;
-    max-width: 400px;
+    max-width: 500px;
     z-index: 1;
     animation: slideInFromLeft 1s ease;
     color: white;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .hero-section > div h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: cursive;
     font-weight: bolder;
 }
