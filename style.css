@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 2px 2px 8px rgb(80, 79, 79);
+    background-color: transparent;
+}
+
+body {
+    background-color: rgba(10, 0, 0, 0.349);
+}
+
+header nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+}
+
+#search-btn {
+    background-color: rgba(29, 29, 27, 0.267);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(15, 12, 0);
+}
+
+.hero-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-section > div {
+    position: absolute;
+    left: 50px;
+    width: 50%;
+    max-width: 400px;
+    z-index: 1;
+    animation: slideInFromLeft 1s ease;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.hero-section > div h1 {
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.top {
+    width: 250px;
+    background-color: rgb(245, 243, 247);
+    margin: 10px;
+    min-width: 280px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    animation: moving 10s linear infinite alternate;
+}
+
+#top-coins {
+    display: flex;
+    overflow: hidden;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#crypto-img {
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@keyframes moving {
+    0% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-100vw);
+    }
+}
