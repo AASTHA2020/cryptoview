@@ -59,7 +59,7 @@ header nav {
     width: 50%;
     max-width: 500px;
     z-index: 1;
-    animation: slideInFromLeft 1s ease;
+    animation: slideInFromLeft 2s ease;
     color: white;
     font-size: 1.2rem;
     font-weight: bold;

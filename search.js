@@ -14,7 +14,7 @@ async function fetchApi(coin_name) {
     let result = await response.json();
     return result;
 }
-
+ 
 //display the list of coins
 function displayListOFCoins(coinList) {
     coin_list.innerHTML = ""; // Clearing previous content
@@ -54,6 +54,7 @@ async function moreInfo(coinname) {
             <span style="color:white;">INR: ${inr}</span>
             <span style="color:white;">USD: ${usd}</span>
             <span style="color:white;">EUR: ${eur}</span>
+            
             <span style="color:white;">GBP: ${gbp}</span>
         </div>
         <div style="color:white; margin-top: 20px;">
